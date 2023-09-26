@@ -1,0 +1,130 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+a,
+a:hover {
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    transition: all.6s ease;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+/* Стили основного документа*/
+
+#wraper {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+    border: 1px solid black;
+    
+}
+
+
+/*Стили для левой колонки*/
+
+#wraper #leftCol {
+    width: 70%;
+    margin-right: 10%;
+    float: left;
+    border: 1px solid black;    
+}
+
+#wraper #leftCol .bigArticle {
+    width: 78%;
+    margin-left: 10%;
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    padding: 1%;
+    float: left;
+}
+
+#wraper #leftCol .bigArticle img,
+#wraper #leftCol .article img {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+#wraper #leftCol .bigArticle h2,
+#wraper #leftCol .article h2 {
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #636363;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#wraper #leftCol .bigArticle p,
+#wraper #leftCol .article p {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+#wraper #leftCol .bigArticle div,
+#wraper #leftCol .article div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #585858;
+    color: #fff;
+    width: 10%;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+#wraper #leftCol .bigArticle div:hover,
+#wraper #leftCol .article div:hover {
+    background-color: #757575;
+    border: 1px solid black;
+}
+
+#wraper #leftCol .article div {
+    width: 20%;
+    border: 1px solid black;
+}
+
+#wraper #leftCol .article {
+
+    width: 40%;
+    margin-left: 5%;
+    background-color: #f6f6f6;
+    padding: 1%;
+    float: left;
+    border: 1px solid black;
+}
